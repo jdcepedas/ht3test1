@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ht3test1
+  description: "Microservicio ht3test1 — generado via Backstage Golden Path"
+  annotations:
+    github.com/project-slug: group:default/jdcepedas/ht3test1
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - nodejs
+    - microservicio
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:default/jdcepedas
+  system: plataforma-uniandes
